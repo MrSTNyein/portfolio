@@ -11,14 +11,30 @@
     <meta property="og:url" content="https://portfolio-two-delta-unxsn8w8ak.vercel.app/">
     <meta name="twitter:card" content="summary_large_image">
     <title>My Portfolio</title>
-     <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-050K97NKWS"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-050K97NKWS');
-  </script>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-050K97NKWS"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-050K97NKWS');
+    </script>
+    <!-- GA4 Consent Mode -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      // Default: deny analytics storage
+      gtag('consent', 'default', {
+        'analytics_storage': 'denied'
+      });
+    </script>
+    <!-- Fonts & Styles -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
       :root {
@@ -488,31 +504,60 @@
       .cta-btn:hover {
         transform: scale(1.05);
       }
-  #cookie-banner {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: #131c2c;
-    color: #e6eef6;
-    padding: 15px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: 'Inter', sans-serif;
-    z-index: 9999;
-    box-shadow: 0 -2px 10px rgba(0,0,0,0.3);
-  }
-  #cookie-banner button {
-    background: #6ee7b7;
-    border: none;
-    padding: 8px 15px;
-    color: #0f1724;
-    font-weight: 600;
-    cursor: pointer;
-    border-radius: 5px;
-  }
-</style>
+
+      #cookie-banner {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: #131c2c;
+        color: #e6eef6;
+        padding: 15px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'Inter', sans-serif;
+        z-index: 9999;
+        box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
+      }
+
+      #cookie-banner button {
+        background: #6ee7b7;
+        border: none;
+        padding: 8px 15px;
+        color: #0f1724;
+        font-weight: 600;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+
+      /* Cookie Banner Styles */
+      #cookie-banner {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: #131c2c;
+        color: #e6eef6;
+        padding: 15px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'Inter', sans-serif;
+        z-index: 9999;
+        box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
+      }
+
+      #cookie-banner button {
+        background: #6ee7b7;
+        border: none;
+        padding: 8px 15px;
+        color: #0f1724;
+        font-weight: 600;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -557,8 +602,8 @@
       <h2>Blogs</h2>
       <div class="blogs">
         <div class="blog" data-title="SEO Secrets for 2025" data-desc="SEO is evolving faster than ever in 2025. With AI-driven algorithms and smarter search engines, businesses and digital marketers need to adapt tontain originality and helpfulness.&#10;&#10;SEO in 2025 is about strategy, intent, and trust. Combining technical optimization, AI insights, and high-quality content can help outperform competitors and create a sustainable online presence." data-img="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800">
-          <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800" alt="SEO 2025"> 
-           <h3>SEO Secrets for 2025</h3>
+          <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800" alt="SEO 2025">
+          <h3>SEO Secrets for 2025</h3>
         </div>
         <div class="blog" data-title="How AI Is Changing Marketing" data-desc="Artificial Intelligence (AI) is revolutionizing marketing by enabling hyper-personalized customer experiences, automating campaigns, generating content, and providing real-time data insights. By analyzing vast amounts of consumer data, AI predicts preferences, recommends products, and delivers tailored content, boosting engagement and loyalty. It also powers smart analytics, automates repetitive tasks, and supports AI-driven chatbots for instant customer service, reducing costs while enhancing satisfaction. Furthermore, AI-driven predictive marketing allows brands to anticipate trends, optimize targeting, and plan campaigns more effectively. In 2025 and beyond, AI is no longer just a futuristic concept—it is a vital tool that makes marketing more intelligent, efficient, and customer-focused." data-img="https://images.unsplash.com/photo-1518770660439-4636190af475?w=800">
           <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=800" alt="AI Marketing">
@@ -566,47 +611,47 @@
         </div>
       </div>
     </section>
-  <section class="section" id="skills">
-  <h2>Skills</h2>
-  <div class="skills">
-    <div class="skill">
-      <h3>SEO & SEM</h3>
-      <div class="bar">
-        <div class="fill" data-width="90%"></div>
+    <section class="section" id="skills">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div class="skill">
+          <h3>SEO & SEM</h3>
+          <div class="bar">
+            <div class="fill" data-width="90%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <h3>Social Media Marketing & Ads</h3>
+          <div class="bar">
+            <div class="fill" data-width="90%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <h3>AI Tools & Automation</h3>
+          <div class="bar">
+            <div class="fill" data-width="90%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <h3>AI-Powered Content Creation</h3>
+          <div class="bar">
+            <div class="fill" data-width="85%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <h3>Email & CRM Marketing</h3>
+          <div class="bar">
+            <div class="fill" data-width="80%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <h3>Content Creation & Copywriting</h3>
+          <div class="bar">
+            <div class="fill" data-width="85%"></div>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="skill">
-      <h3>Social Media Marketing & Ads</h3>
-      <div class="bar">
-        <div class="fill" data-width="90%"></div>
-      </div>
-    </div>
-    <div class="skill">
-      <h3>AI Tools & Automation</h3>
-      <div class="bar">
-        <div class="fill" data-width="90%"></div>
-      </div>
-    </div>
-    <div class="skill">
-      <h3>AI-Powered Content Creation</h3>
-      <div class="bar">
-        <div class="fill" data-width="85%"></div>
-      </div>
-    </div>
-    <div class="skill">
-      <h3>Email & CRM Marketing</h3>
-      <div class="bar">
-        <div class="fill" data-width="80%"></div>
-      </div>
-    </div>
-    <div class="skill">
-      <h3>Content Creation & Copywriting</h3>
-      <div class="bar">
-        <div class="fill" data-width="85%"></div>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
     <section class="section" id="certificates">
       <h2>Certificates</h2>
       <div class="certificates">
@@ -701,10 +746,10 @@
     </div>
     <button id="backTop">↑ Top</button>
     <!-- Cookie Consent Banner -->
-<div id="cookie-banner">
-  <span>We use cookies to enhance your experience and analyze website traffic. By continuing, you agree to our use of cookies.</span>
-  <button id="accept-cookies">Accept</button>
-</div>
+    <div id="cookie-banner">
+      <span>We use cookies to enhance your experience and analyze website traffic. By continuing, you agree to our use of cookies.</span>
+      <button id="accept-cookies">Accept</button>
+    </div>
     <script>
       document.getElementById('year').textContent = new Date().getFullYear();
       /* Sidebar */
@@ -797,17 +842,25 @@
         index = (index + 1) % track.children.length;
         track.style.transform = `translateX(-${index*100}%)`;
       }, 4000);
-  const banner = document.getElementById('cookie-banner');
-  const acceptBtn = document.getElementById('accept-cookies');
-
-  if(localStorage.getItem('cookieConsent') === 'true') {
-    banner.style.display = 'none';
-  }
-
-  acceptBtn.addEventListener('click', () => {
-    localStorage.setItem('cookieConsent', 'true');
-    banner.style.display = 'none';
-  });
+      const banner = document.getElementById('cookie-banner');
+      const acceptBtn = document.getElementById('accept-cookies');
+      // Hide banner if consent already given
+      if (localStorage.getItem('cookieConsent') === 'true') {
+        banner.style.display = 'none';
+        gtag('consent', 'update', {
+          'analytics_storage': 'granted'
+        });
+        gtag('event', 'page_view'); // send initial pageview
+      }
+      acceptBtn.addEventListener('click', () => {
+        localStorage.setItem('cookieConsent', 'true');
+        banner.style.display = 'none';
+        // Update GA4 consent
+        gtag('consent', 'update', {
+          'analytics_storage': 'granted'
+        });
+        gtag('event', 'page_view'); // send initial pageview
+      });
     </script>
   </body>
 </html>
