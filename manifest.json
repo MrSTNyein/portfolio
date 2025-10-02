@@ -1,0 +1,21 @@
+{
+  "name": "Sithu Nyein | Portfolio",
+  "short_name": "Sithu Nyein",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0f1724",
+  "theme_color": "#0f1724",
+  "description": "Portfolio of Sithu Nyein – Digital Marketer & AI Enthusiast.",
+  "icons": [
+    {
+      "src": "https://i.ibb.co/fVZ8JR2j/IMG-3199.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "https://i.ibb.co/fVZ8JR2j/IMG-3199.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}
