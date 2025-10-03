@@ -1,25 +1,32 @@
 # Security Policy
 
+I take the security of this project seriously. If you believe you have found a security vulnerability in my portfolio website, I encourage you to report it to me privately.
+
 ## Supported Versions
 
-This project is a personal portfolio website. Security updates, if any, are applied directly to the latest version of the code available in the `main` branch.
+Since this is a personal portfolio deployed as a static site, only the most recent version deployed on Vercel is considered supported.
 
 | Version | Supported          |
 | ------- | ------------------ |
-| Latest  | :white_check_mark: |
+| latest  | :white_check_mark: |
+
 
 ## Reporting a Vulnerability
 
-I take the security of this project seriously. I appreciate your efforts to responsibly disclose any vulnerabilities you find.
+**Please do NOT report security vulnerabilities through public GitHub issues.**
 
-To report a security vulnerability, please **do not** create a public GitHub issue. Instead, send an email to:
+Instead, please send a private email to:
 
 **sithunyein.mailto@gmail.com**
 
-Please include the following information in your report:
+Please include a detailed description of the vulnerability, its potential impact, and steps to reproduce it if possible. I will do my best to respond to your report as quickly as possible.
 
--   A clear and concise description of the vulnerability.
--   The steps required to reproduce the issue.
--   Any screenshots or proof-of-concept code that would be helpful.
+### What to Expect
 
-I will make every effort to acknowledge your report within 48 hours and will work to address the issue in a timely manner. I appreciate your help in keeping this project secure.
+If you report a vulnerability, I will:
+
+- Acknowledge your report within 48 hours.
+- Investigate the issue and provide a more detailed response.
+- Credit you for your discovery after the vulnerability has been addressed, if you wish.
+
+Thank you for helping to keep my project secure.
