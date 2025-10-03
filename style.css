@@ -619,3 +619,48 @@ footer {
   cursor: pointer;
   border-radius: 5px;
 }
+
+/* ================== ABOUT SECTION STYLES ================== */
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap; /* Allows stacking on smaller screens */
+}
+
+.about-image {
+  flex: 1; /* Takes up 1 part of the available space */
+  min-width: 250px; /* Ensures the image doesn't get too small */
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 12px;
+  border: 2px solid var(--accent);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+
+.about-content {
+  flex: 2; /* Takes up 2 parts of the space, making it wider */
+}
+
+.about-content h3 {
+  font-size: 1.5rem;
+  color: var(--accent2);
+  margin-bottom: 15px;
+}
+
+.about-content p {
+  color: var(--muted);
+  margin-bottom: 15px;
+  line-height: 1.7;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column; /* Stacks the items vertically */
+    text-align: center;
+    gap: 25px;
+  }
+}
