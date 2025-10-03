@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }, {
         threshold: 0.1
     });
-    document.querySelectorAll('.hero, .section, .skill').forEach(el => observer.observe(el));
+    document.querySelectorAll('.hero, .section, .skill, .about-container').forEach(el => observer.observe(el));
 
     const modal = document.getElementById('modal');
     const modalContent = modal.querySelector('.modal-content');
