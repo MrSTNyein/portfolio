@@ -10,8 +10,8 @@ Welcome to the code repository for my personal portfolio. This project is a full
 
 The portfolio is live and can be viewed at the new, cleaner Vercel URL:
 
-* **Live URL:** [**sithu-nyeins-projects.vercel.app**](https://portfolio-pji0vi665-sithu-nyeins-projects.vercel.app/)
-* **Short Link:** [**https://bit.ly/stnyein**]
+* **Live URL:** [**https://github.com/MrSTNyein/portfolio**]
+* **Short Link:** [**https://bit.ly/sithunyein_me**]
 
 ---
 
