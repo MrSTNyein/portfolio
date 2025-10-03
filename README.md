@@ -2,15 +2,17 @@
 
 ![Sithu Nyein's Portfolio](https://i.ibb.co/fVZ8JR2j/IMG-3199.jpg)
 
-This repository contains the source code for my personal portfolio website. It's a fully responsive, modern website designed to showcase my skills in digital marketing, my passion for AI, and the projects I've worked on. The site is built from scratch using core web technologies.
+Welcome to the code repository for my personal portfolio. This project is a fully responsive, modern website built from scratch to showcase my skills in digital marketing, my passion for AI, and the projects I've worked on.
 
 ---
 
 ## 🌐 Live Demo
 
-You can view the live version of the portfolio here:
+The portfolio is live and can be viewed at the new, cleaner Vercel URL:
 
-* **Live URL:** [**https://portfolio-git-main-sithu-nyeins-projects.vercel.app/**]
+* **Live URL:** [**sithu-nyeins-projects.vercel.app**](https://portfolio-pji0vi665-sithu-nyeins-projects.vercel.app/)
+* **Short Link:** [**bit.ly/sithunyein-portfolio**](https://bit.ly/sithunyein-portfolio)
+
 ---
 
 ## ✨ Features
