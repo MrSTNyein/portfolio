@@ -1,71 +1,60 @@
-# Personal Portfolio Website - Sithu Nyein
+# Sithu Nyein - Personal Portfolio
 
 ![Portfolio Screenshot](https://i.ibb.co/fVZ8JR2j/IMG-3199.jpg)
 
-Welcome to the GitHub repository for my personal portfolio website. This project is a modern, responsive application with a clean codebase, built to showcase my skills, projects, and professional experience in Digital Marketing and Artificial Intelligence.
+Welcome to the GitHub repository for my personal portfolio website. This project showcases my skills, projects, and professional background as a Digital Marketer and AI Enthusiast. The website is designed to be a clean, modern, and fully responsive hub for my professional identity.
 
-**🚀 [View the Live Demo](https://portfolio-two-delta-unxsn8w8ak.vercel.app/)**
+**🔗 Live Demo:** [**https://MrSTNyein.github.io/your-repo-name/**](https://MrSTNyein.github.io/your-repo-name/)
+
+*(**Note:** Remember to replace `your-repo-name` with the actual name of your GitHub repository!)*
 
 ---
 
 ## ✨ Key Features
 
-This portfolio is packed with modern web features to provide an engaging and seamless user experience.
-
-* **🎨 Dark/Light Theme:** A user-selectable dark/light mode that persists the user's choice.
-* **📱 Fully Responsive Design:** The layout is optimized for all screen sizes, from mobile phones to desktop monitors.
-* **✍️ Dynamic Typing Animation:** An eye-catching typewriter effect in the hero section that cycles through professional roles.
-* **🔥 Scroll-Triggered Animations:** Elements gracefully fade in using the efficient `IntersectionObserver` API.
-* **📂 Interactive Project Filtering:** Visitors can filter projects by category to easily find relevant work.
-* **📖 "Read More" Functionality:** Long descriptions in modals are truncated with a "Read More / Read Less" button for a cleaner UI.
-* **🗣️ Testimonial Carousel:** An auto-playing and user-controllable carousel for testimonials.
-* **⚡ AJAX Contact Form:** A contact form that submits messages asynchronously without a page reload.
-* **📈 High Performance Score:** The site is highly optimized for speed, achieving a **97/100** score on Google PageSpeed Insights.
-* **🔍 SEO Optimized:** Built with SEO best practices, including semantic HTML, meta tags, and **Schema.org** structured data.
-* **🌐 Progressive Web App (PWA):** The portfolio is a fully capable PWA, making it installable and offline-capable.
+- **Modern & Responsive Design:** Fully functional and looks great on all devices, from mobile phones to desktops.
+- **Light & Dark Mode:** A theme toggle to switch between a light and dark interface for user comfort.
+- **Interactive UI:** Engaging elements like a typing-effect hero title, modals for project details, and a testimonial carousel.
+- **Project Filtering:** Easily filter projects by category (e.g., Marketing, AI).
+- **Progressive Web App (PWA):** Installable on mobile and desktop devices, with offline access to core content thanks to a Service Worker.
+- **Contact Form:** A functional contact form integrated with [Formspree](https://formspree.io/) for easy communication.
+- **SEO Optimized:** Includes meta tags, Open Graph tags, and structured data for better search engine visibility.
 
 ---
 
-## 🛠️ Tech Stack & Architecture
+## 🛠️ Technologies Used
 
-This project demonstrates strong foundational skills by using core web technologies without reliance on external frameworks. The codebase follows the principle of **separation of concerns**, making it clean and maintainable.
+This portfolio was built using fundamental web technologies:
 
-* **HTML5:** Semantic markup provides the project's structure.
-* **CSS3:** A dedicated stylesheet handles all styling, layout (Flexbox & Grid), and animations.
-* **JavaScript (ES6+):** A separate script file manages all interactivity and DOM manipulation.
-* **Formspree:** For the backend handling of the contact form.
-* **Vercel:** For hosting and deployment.
+- **HTML5:** For the structure and content of the website.
+- **CSS3:** For all styling, including variables for theming, animations, and responsive design.
+- **JavaScript (ES6+):** For interactivity, DOM manipulation, theme switching, and the PWA service worker logic.
 
 ---
 
-## 🚀 How To Use
+## 🚀 How to Set Up
 
-To view the project locally:
+To run this project locally:
 
-1.  Clone the repository:
+1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/MrSTNyein/portfolio.git](https://github.com/MrSTNyein/portfolio.git)
+    git clone [https://github.com/MrSTNyein/your-repo-name.git](https://github.com/MrSTNyein/your-repo-name.git)
     ```
-2.  Navigate to the project directory:
+2.  **Navigate to the directory:**
     ```bash
-    cd portfolio
+    cd your-repo-name
     ```
-3.  Open the `index.html` file in your favorite browser.
+3.  **Open `index.html` in your browser.**
+    No special servers or dependencies are needed!
 
 ---
 
-## 📊 Performance
+## 📬 Let's Connect!
 
-Performance is a key feature of this site. It was audited using Google Lighthouse, achieving the following score:
+I'm always open to discussing new projects, creative ideas, or opportunities. Feel free to connect with me.
 
-[![PageSpeed Insights Score](https://img.shields.io/badge/PageSpeed-97%2F100-brightgreen)](https://pagespeed.web.dev/analysis/https-portfolio-two-delta-unxsn8w8ak-vercel-app/zlnbnarp-hb?form_factor=desktop)
+- **LinkedIn:** [linkedin.com/in/sithunyein](https://www.linkedin.com/in/sithunyein/)
+- **Facebook:** [facebook.com/sithunyein.me](https://www.facebook.com/sithunyein.me)
+- **Email:** [sithunyein.mailto@gmail.com](mailto:sithunyein.mailto@gmail.com)
 
-This ensures a fast and reliable experience for all visitors.
-
----
-
-## 📬 Contact
-
-Sithu Nyein - [@MrSTNyein](https://github.com/MrSTNyein)
-
-Feel free to reach out to me through the contact form on the website or via my social links.
+&copy; 2025 Sithu Nyein
