@@ -1,60 +1,63 @@
-# Sithu Nyein - Personal Portfolio
+# Sithu Nyein - Personal Portfolio Website
 
-![Portfolio Screenshot](https://i.ibb.co/fVZ8JR2j/IMG-3199.jpg)
+![Sithu Nyein's Portfolio](https://i.ibb.co/fVZ8JR2j/IMG-3199.jpg)
 
-Welcome to the GitHub repository for my personal portfolio website. This project showcases my skills, projects, and professional background as a Digital Marketer and AI Enthusiast. The website is designed to be a clean, modern, and fully responsive hub for my professional identity.
-
-**🔗 Live Demo:** [**https://MrSTNyein.github.io/your-repo-name/**](https://MrSTNyein.github.io/your-repo-name/)
-
-*(**Note:** Remember to replace `your-repo-name` with the actual name of your GitHub repository!)*
+This repository contains the source code for my personal portfolio website. It's a fully responsive, modern website designed to showcase my skills in digital marketing, my passion for AI, and the projects I've worked on. The site is built from scratch using core web technologies.
 
 ---
 
-## ✨ Key Features
+## 🌐 Live Demo
 
-- **Modern & Responsive Design:** Fully functional and looks great on all devices, from mobile phones to desktops.
-- **Light & Dark Mode:** A theme toggle to switch between a light and dark interface for user comfort.
-- **Interactive UI:** Engaging elements like a typing-effect hero title, modals for project details, and a testimonial carousel.
-- **Project Filtering:** Easily filter projects by category (e.g., Marketing, AI).
-- **Progressive Web App (PWA):** Installable on mobile and desktop devices, with offline access to core content thanks to a Service Worker.
-- **Contact Form:** A functional contact form integrated with [Formspree](https://formspree.io/) for easy communication.
-- **SEO Optimized:** Includes meta tags, Open Graph tags, and structured data for better search engine visibility.
+You can view the live version of the portfolio here:
+
+* **Live URL:** [**https://portfolio-nine-neon-9dj0ry0ixb.vercel.app/**](https://portfolio-nine-neon-9dj0ry0ixb.vercel.app/)
+
+---
+
+## ✨ Features
+
+-   **Modern & Responsive Design:** Looks and works great on all devices, from mobile phones to desktops.
+-   **Light & Dark Mode:** A theme toggle allows users to switch between light and dark modes for comfortable viewing.
+-   **Interactive UI:** Includes dynamic elements like a typing hero-text, modals for project details, animated skill bars, and a smooth-scrolling testimonial carousel.
+-   **Project Filtering:** An interactive filter allows visitors to sort projects by category (Marketing, AI).
+-   **Progressive Web App (PWA):** The site is installable on mobile and desktop and is capable of working offline thanks to a service worker.
+-   **SEO Optimized:** Built with SEO best practices, including meta tags, Open Graph protocol, and structured JSON-LD data.
+-   **Functional Contact Form:** Integrated with Formspree to handle form submissions without a backend server.
 
 ---
 
 ## 🛠️ Technologies Used
 
-This portfolio was built using fundamental web technologies:
+This is a "vanilla" project built with the foundational technologies of the web:
 
-- **HTML5:** For the structure and content of the website.
-- **CSS3:** For all styling, including variables for theming, animations, and responsive design.
-- **JavaScript (ES6+):** For interactivity, DOM manipulation, theme switching, and the PWA service worker logic.
+-   **HTML5:** For the structure and content.
+-   **CSS3:** For all styling, animations, and responsive layout (using Flexbox and Grid).
+-   **JavaScript (ES6+):** For all interactivity, including the theme switcher, animations on scroll, and form handling.
 
 ---
 
-## 🚀 How to Set Up
+## 🚀 How to Set Up and Run Locally
 
-To run this project locally:
+No complex build steps are required. To run this project on your local machine:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/MrSTNyein/your-repo-name.git](https://github.com/MrSTNyein/your-repo-name.git)
+    git clone [https://github.com/MrSTNyein/portfolio.git](https://github.com/MrSTNyein/portfolio.git)
     ```
-2.  **Navigate to the directory:**
+2.  **Navigate to the project directory:**
     ```bash
-    cd your-repo-name
+    cd portfolio
     ```
-3.  **Open `index.html` in your browser.**
-    No special servers or dependencies are needed!
+3.  **Open the `index.html` file in your favorite browser.**
 
 ---
 
 ## 📬 Let's Connect!
 
-I'm always open to discussing new projects, creative ideas, or opportunities. Feel free to connect with me.
+I'm always open to discussing new opportunities and collaborations. Feel free to reach out!
 
-- **LinkedIn:** [linkedin.com/in/sithunyein](https://www.linkedin.com/in/sithunyein/)
-- **Facebook:** [facebook.com/sithunyein.me](https://www.facebook.com/sithunyein.me)
-- **Email:** [sithunyein.mailto@gmail.com](mailto:sithunyein.mailto@gmail.com)
+-   **LinkedIn:** [linkedin.com/in/sithunyein](https://www.linkedin.com/in/sithunyein/)
+-   **Facebook:** [facebook.com/sithunyein.me](https://www.facebook.com/sithunyein.me)
+-   **GitHub:** [@MrSTNyein](https://github.com/MrSTNyein)
 
 &copy; 2025 Sithu Nyein
