@@ -239,20 +239,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 document.addEventListener('DOMContentLoaded', () => {
-
-    // This function calculates the actual viewport height and sets it as a CSS variable.
-    const setVhVariable = () => {
-      let vh = window.innerHeight * 0.01;
-      document.documentElement.style.setProperty('--vh', `${vh}px`);
-    };
-
-    // Run the function on initial load
-    setVhVariable();
-    // Run the function again when the window is resized (e.g., orientation change)
-    window.addEventListener('resize', setVhVariable);
-    // --- END OF NEW CODE --- //
-
-
     document.getElementById('year').textContent = new Date().getFullYear();
     
     // (The rest of your JavaScript code remains exactly the same below this)
