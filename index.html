@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,47 +10,62 @@
   <meta property="og:image" content="https://i.ibb.co/fVZ8JR2j/IMG-3199.jpg">
   <meta property="og:url" content="https://portfolio-two-delta-unxsn8w8ak.vercel.app/">
   <meta name="twitter:card" content="summary_large_image">
+  
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0f1724">
+
+  <script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Sithu Nyein",
+    "url": "https://portfolio-two-delta-unxsn8w8ak.vercel.app/",
+    "image": "https://i.ibb.co/fVZ8JR2j/IMG-3199.jpg",
+    "sameAs": [
+      "https://www.facebook.com/sithunyein.me",
+      "https://www.instagram.com/sithunyein.me",
+      "https://github.com/MrSTNyein",
+      "https://www.linkedin.com/in/sithunyein/"
+    ],
+    "jobTitle": "Digital Marketer",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Freelance"
+    },
+    "knowsAbout": ["Digital Marketing", "AI Tools", "Content Creation", "SEO", "Social Media Marketing"]
+  }</script>
+  
   <title>Sithu Nyein | Portfolio</title>
   
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-050K97NKWS"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
+    function gtag() {
+      dataLayer.push(arguments);
+    }
     gtag('js', new Date());
     gtag('config', 'G-050K97NKWS');
   </script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('consent', 'default', { 'analytics_storage': 'denied' });
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    // Default: deny analytics storage
+    gtag('consent', 'default', {
+      'analytics_storage': 'denied'
+    });
   </script>
   
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   
-  <link rel="manifest" href="manifest.json">
-  
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Sithu Nyein",
-      "url": "https://portfolio-two-delta-unxsn8w8ak.vercel.app/",
-      "image": "https://i.ibb.co/fVZ8JR2j/IMG-3199.jpg",
-      "sameAs": ["https://www.facebook.com/sithunyein.me", "https://www.instagram.com/sithunyein.me", "https://github.com/MrSTNyein", "https://www.linkedin.com/in/sithunyein/"],
-      "jobTitle": "Digital Marketer",
-      "worksFor": { "@type": "Organization", "name": "Freelance" },
-      "knowsAbout": ["Digital Marketing", "AI Tools", "Content Creation", "SEO", "Social Media Marketing"]
-    }
-  </script>
-  
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
   <header>
     <div class="menu-btn" id="menuBtn">☰ Menu</div>
     <div class="theme-btn" id="themeToggle">◐</div>
   </header>
+
   <div class="sidebar" id="sidebar">
     <div class="back-sidebar" id="sidebarBack">← Back</div>
     <a href="#" target="_blank">
@@ -84,21 +98,108 @@
         <button class="filter-btn" data-filter="ai">AI</button>
       </div>
       <div class="projects">
-        <div class="card" data-category="marketing" data-title="Social Growth Campaign" data-desc="Designed and executed data-driven social media campaigns..." data-img="images/social-growth.webp">
-          <img src="images/social-growth.webp" alt="Social Growth" loading="lazy">
+        <div class="card" data-category="marketing" data-title="Social Growth Campaign" data-desc="Designed and executed data-driven social media campaigns..." data-img="https://images.unsplash.com/photo-1515378791036-0648a_ef77b2?w=800" data-link="https://www.example.com/social-growth">
+          <img src="https://images.unsplash.com/photo-1515378791036-0648a_ef77b2?w=800" alt="Social Growth" loading="lazy">
           <h3>Social Growth Campaign</h3>
         </div>
-        <div class="card" data-category="ai" data-title="ChatGPT AI Platform" data-desc="Developed and deployed an AI-powered conversational platform..." data-img="images/ai-platform.webp">
-          <img src="images/ai-platform.webp" alt="ChatGPT AI" loading="lazy">
+        <div class="card" data-category="ai" data-title="ChatGPT AI Platform" data-desc="Developed and deployed an AI-powered conversational platform..." data-img="https://images.unsplash.com/photo-1556761175-129418cb2dfe?w=800" data-link="https://www.example.com/gemini-ai">
+          <img src="https://images.unsplash.com/photo-1556761175-129418cb2dfe?w=800" alt="ChatGPT AI" loading="lazy">
           <h3>ChatGPT AI Platform</h3>
         </div>
       </div>
     </section>
 
-    </main>
-  
+    <section class="section" id="blogs">
+      <h2>Blogs</h2>
+      <div class="blogs">
+        <div class="blog" data-title="SEO Secrets for 2025" data-desc="SEO is evolving faster than ever in 2025..." data-img="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800">
+          <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800" alt="SEO 2025" loading="lazy">
+          <h3>SEO Secrets for 2025</h3>
+        </div>
+        <div class="blog" data-title="How AI Is Changing Marketing" data-desc="Artificial Intelligence (AI) is revolutionizing marketing..." data-img="https://images.unsplash.com/photo-1518770660439-4636190af475?w=800">
+          <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=800" alt="AI Marketing" loading="lazy">
+          <h3>How AI Is Changing Marketing</h3>
+        </div>
+      </div>
+    </section>
+    
+    <section class="section" id="skills">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div class="skill"><h3>SEO & SEM</h3><div class="bar"><div class="fill" data-width="90%"></div></div></div>
+        <div class="skill"><h3>Social Media Marketing & Ads</h3><div class="bar"><div class="fill" data-width="90%"></div></div></div>
+        <div class="skill"><h3>AI Tools & Automation</h3><div class="bar"><div class="fill" data-width="90%"></div></div></div>
+        <div class="skill"><h3>AI-Powered Content Creation</h3><div class="bar"><div class="fill" data-width="85%"></div></div></div>
+        <div class="skill"><h3>Email & CRM Marketing</h3><div class="bar"><div class="fill" data-width="80%"></div></div></div>
+        <div class="skill"><h3>Content Creation & Copywriting</h3><div class="bar"><div class="fill" data-width="85%"></div></div></div>
+      </div>
+    </section>
+
+    <section class="section" id="certificates">
+        <h2>Certificates</h2>
+        <div class="certificates">
+            <div class="certificate" data-title="Google Digital Marketing and E-commerce Professional Certificate" data-desc="I completed the Google Digital Marketing and E-commerce Professional Certificate..." data-img="https://i.ibb.co/4RnRP0Y/IMG-3141.jpg">
+                <img src="https://i.ibb.co/4RnRP0Y/IMG-3141.jpg" alt="Digital Marketing Advanced" loading="lazy">
+                <h3>Google Digital Marketing and E-commerce</h3>
+            </div>
+            <div class="certificate" data-title="Meta Social Media Marketing Professional Certificate" data-desc="I completed the Meta Social Media Marketing Professional Certificate..." data-img="https://i.ibb.co/VYhwCKRQ/IMG-3201.jpg">
+                <img src="https://i.ibb.co/VYhwCKRQ/IMG-3201.jpg" alt="Meta Advertising" loading="lazy">
+                <h3>Meta Social Media Marketing</h3>
+            </div>
+            <div class="certificate" data-title="Google AI Essentials" data-desc="I completed the Google AI Essentials Certificate..." data-img="https://i.ibb.co/8GRxQzW/IMG-3139.jpg">
+                <img src="https://i.ibb.co/8GRxQzW/IMG-3139.jpg" alt="Google AI Essentials" loading="lazy">
+                <h3>Google AI Essentials</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="testimonials">
+      <h2>Testimonials</h2>
+      <div class="testimonials-container">
+        <div class="testimonials">
+          <div class="testimonial-track" id="testimonialTrack">
+            <div class="testimonial"><p>"His marketing strategies increased our sales by 50%..."</p><strong>– Ko Htet, Wall Street LLC</strong></div>
+            <div class="testimonial"><p>"Professional, creative, and results-driven..."</p><strong>– Hla Hla, Logistics </strong></div>
+            <div class="testimonial"><p>"Sithu's work on our social media campaign helped us double engagement..."</p><strong>– Aung Min, Branded Collection</strong></div>
+          </div>
+        </div>
+        <div class="testimonial-nav">
+          <button class="testimonial-btn" id="prevBtn" aria-label="Previous Testimonial">‹</button>
+          <button class="testimonial-btn" id="nextBtn" aria-label="Next Testimonial">›</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="github">
+      <h2>GitHub Contributions</h2>
+      <div class="git-graph">
+        <img src="https://ghchart.rshah.org/MrSTNyein" alt="GitHub Contributions" loading="lazy">
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <h2>Contact</h2>
+      <form id="contact-form" action="https://formspree.io/f/movkwvjj" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Message" required></textarea>
+        <button type="submit">Send</button>
+        <div id="form-status"></div>
+      </form>
+    </section>
+  </main>
+
   <footer>
-    </footer>
+    <div class="socials">
+        <a href="https://www.facebook.com/sithunyein.me" aria-label="Facebook" target="_blank"><svg viewBox="0 0 24 24"><path d="M22 12a10 10 0 1 0-11.5 9.9v-7H8v-3h2.5V9.5c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.3.2 2.3.2v2.5h-1.3c-1.3 0-1.7.8-1.7 1.6V12H16l-.5 3h-2.5v7A10 10 0 0 0 22 12" /></svg></a>
+        <a href="https://www.instagram.com/sithunyein.me" aria-label="Instagram" target="_blank"><svg viewBox="0 0 24 24"><path d="M7 2C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5H7zm10 2c1.7 0 3 1.3 3 3v10c0 1.7-1.3 3-3 3H7c-1.7 0-3-1.3-3-3V7c0-1.7 1.3-3 3-3h10zm-5 3a5 5 0 100 10 5 5 0 000-10z" /></svg></a>
+        <a href="https://github.com/MrSTNyein" aria-label="GitHub" target="_blank"><svg viewBox="0 0 24 24"><path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2.3c-3.4.7-4.2-1.5-4.2-1.5-.5-1.2-1.2-1.5-1.2-1.5-1-.7.1-.7.1-.7 1.1.1 1.6 1.1 1.6 1.1 1 .1.7 1.9 3.6 1.3.1-.8.4-1.3.8-1.6-2.7-.3-5.6-1.3-5.6-6a4.7 4.7 0 0 1 1.3-3.2c-.1-.3-.5-1.6.1-3.2 0 0 1-.3 3.3 1.2a11.3 11.3 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.9.1 3.2a4.7 4.7 0 0 1 1.3 3.2c0 4.7-2.9 5.7-5.6 6 .4.3.8 1 .8 2v3c0 .3.2.7.8.6A12 12 0 0 0 12 .3" /></svg></a>
+        <a href="mailto:sithunyein.mailto@gmail.com" aria-label="Gmail"><svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 2v.01L12 13 4 6.01V6h16zM4 18V8l8 5 8-5v10H4z" /></svg></a>
+        <a href="https://www.linkedin.com/in/sithunyein/" target="_blank" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M4.98 3.5a2.5 2.5 0 11-.001 5.001A2.5 2.5 0 014.98 3.5zM3 9h4v12H3V9zm7 0h3.75v1.71h.05c.52-.98 1.79-2.01 3.7-2.01 3.95 0 4.68 2.6 4.68 5.98V21h-4v-5.25c0-1.25-.02-2.85-1.74-2.85-1.74 0-2.01 1.36-2.01 2.76V21h-4V9z" /></svg></a>
+    </div>
+    <div class="made"><span>Made with ♡</span></div>
+    <p>&copy; <span id="year"></span> Sithu Nyein </p>
+  </footer>
 
   <div class="modal" id="modal">
     <div class="modal-content">
@@ -115,21 +216,7 @@
     <span>We use cookies to enhance your experience and analyze website traffic. By continuing, you agree to our use of cookies.</span>
     <button id="accept-cookies">Accept</button>
   </div>
-
-  <script src="script.js" defer></script>
   
-  <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/sw.js')
-          .then(registration => {
-            console.log('ServiceWorker registration successful with scope: ', registration.scope);
-          })
-          .catch(err => {
-            console.log('ServiceWorker registration failed: ', err);
-          });
-      });
-    }
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
