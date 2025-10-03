@@ -624,3 +624,38 @@ footer {
   cursor: pointer;
   border-radius: 5px;
 }
+
+/* (All of your previous CSS is here) */
+/* ... */
+
+.hero {
+  /* MODIFIED: Use the new --vh variable for a more reliable mobile height */
+  min-height: calc(var(--vh, 1vh) * 90);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: .8s;
+}
+
+/* This media query targets devices that do not support hover (like tablets and phones) */
+@media (hover: none) {
+  .card:hover,
+  .blog:hover,
+  .skill:hover,
+  .certificate:hover,
+  button:hover,
+  .cta-btn:hover,
+  .theme-btn:hover,
+  .menu-btn:hover {
+    transform: none; /* Disable the "lift" or "scale" effect on tap */
+  }
+
+  .socials a:hover svg {
+    fill: var(--text); /* Prevent the social icon color from getting stuck */
+  }
+}
