@@ -239,10 +239,110 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 document.addEventListener('DOMContentLoaded', () => {
+
+    // --- FIX FOR VH UNIT ON MOBILE --- //
+    const setVhVariable = () => {
+      let vh = window.innerHeight * 0.01;
+      document.documentElement.style.setProperty('--vh', `${vh}px`);
+    };
+    setVhVariable();
+    window.addEventListener('resize', setVhVariable);
+    
+    
     document.getElementById('year').textContent = new Date().getFullYear();
     
-    // (The rest of your JavaScript code remains exactly the same below this)
     // Sidebar Toggle
     const menuBtn = document.getElementById('menuBtn');
-    // ...
+    const sidebar = document.getElementById('sidebar');
+    const sidebarBack = document.getElementById('sidebarBack');
+    if (menuBtn && sidebar && sidebarBack) {
+        menuBtn.onclick = () => sidebar.classList.add('active');
+        sidebarBack.onclick = () => sidebar.classList.remove('active');
+        document.querySelectorAll('.nav-link').forEach(l => l.onclick = () => sidebar.classList.remove('active'));
+    }
+    
+    // Theme Toggle
+    const themeToggle = document.getElementById('themeToggle');
+    if (themeToggle) {
+        themeToggle.onclick = () => {
+            document.body.classList.toggle('light');
+            // Save theme preference
+            if (document.body.classList.contains('light')) {
+                localStorage.setItem('theme', 'light');
+            } else {
+                localStorage.setItem('theme', 'dark');
+            }
+        };
+        // Check for saved theme preference
+        if (localStorage.getItem('theme') === 'light') {
+            document.body.classList.add('light');
+        }
+    }
+    
+    // Typing Effect
+    const typing = document.getElementById("typing");
+    if (typing) {
+        const roles = ["I'm a Digital Marketer", "I'm an AI Enthusiast", "I'm a Content Creator"];
+        let roleIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+
+        function typeRole() {
+            const currentRole = roles[roleIndex];
+            typing.textContent = currentRole.substring(0, charIndex);
+            
+            if (!isDeleting) {
+                if (charIndex < currentRole.length) {
+                    charIndex++;
+                    setTimeout(typeRole, 150);
+                } else {
+                    isDeleting = true;
+                    setTimeout(typeRole, 1200);
+                }
+            } else {
+                if (charIndex > 0) {
+                    charIndex--;
+                    setTimeout(typeRole, 80);
+                } else {
+                    isDeleting = false;
+                    roleIndex = (roleIndex + 1) % roles.length;
+                    setTimeout(typeRole, 200);
+                }
+            }
+        }
+        typeRole();
+    }
+
+    // --- MODIFIED: Scroll Animations --- //
+    // The observer now only watches sections BELOW the hero
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach((e) => {
+            if (e.isIntersecting) {
+                e.target.classList.add('show');
+                if (e.target.classList.contains('skill')) {
+                    const fill = e.target.querySelector('.fill');
+                    if (fill) {
+                       setTimeout(() => {
+                          fill.style.width = fill.dataset.width;
+                       }, 200);
+                    }
+                }
+                observer.unobserve(e.target);
+            }
+        });
+    }, { threshold: 0.1 });
+    // MODIFIED: We removed '.hero' from this list
+    document.querySelectorAll('.section, .skill').forEach(el => observer.observe(el));
+  
+    // --- NEW: Hero Animation on Page Load --- //
+    // This directly targets the hero section and makes it appear reliably.
+    const hero = document.getElementById('hero');
+    if (hero) {
+        setTimeout(() => {
+            hero.classList.add('show');
+        }, 100); // 100ms delay to ensure everything is ready
+    }
+
+    // Modal Logic, Scroll Down, Back to Top, Carousel, Filter, Form, Cookie...
+    // (The rest of your script.js file remains the same here)
 });
