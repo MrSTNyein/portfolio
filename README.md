@@ -10,8 +10,7 @@ This repository contains the source code for my personal portfolio website. It's
 
 You can view the live version of the portfolio here:
 
-* **Live URL:** [**https://portfolio-nine-neon-9dj0ry0ixb.vercel.app/**](https://portfolio-nine-neon-9dj0ry0ixb.vercel.app/)
-
+* **Live URL:** [**https://portfolio-git-main-sithu-nyeins-projects.vercel.app/**]
 ---
 
 ## ✨ Features
