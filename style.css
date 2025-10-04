@@ -375,6 +375,34 @@ button:hover {
   display: flex;
 }
 
+.modal-content #modalDesc {
+    /* Aligns the case study text to the left, which is better for reading paragraphs */
+    text-align: left;
+    line-height: 1.7; /* Adds a bit more space between lines */
+}
+
+.modal-content #modalDesc h4 {
+    font-size: 1.2rem; /* Makes the subheadings a bit larger */
+    font-weight: 600;
+    margin-top: 1.5rem; /* Adds space above each subheading */
+    margin-bottom: 0.75rem; /* Adds space below each subheading */
+    color: var(--accent); /* Uses your existing accent color variable */
+}
+
+.modal-content #modalDesc p {
+    margin-bottom: 1rem;
+}
+
+.modal-content #modalDesc ul {
+    list-style-position: inside; /* Keeps bullet points aligned nicely */
+    padding-left: 5px;
+    margin-bottom: 1rem;
+}
+
+.modal-content #modalDesc li {
+    margin-bottom: 0.5rem; /* Adds a little space between list items */
+}
+
 .modal-content {
   background: var(--card);
   padding: 20px;
