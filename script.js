@@ -93,10 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
 document.querySelectorAll('.card, .blog, .certificate').forEach(el => {
     el.addEventListener('click', () => {
         modalTitle.textContent = el.dataset.title;
-        
-        // This is the corrected line:
-        modalDesc.innerHTML = el.dataset.desc; 
-        
+        modalDesc.textContent = el.dataset.desc; // Changed back to .textContent
         modalImage.src = el.dataset.img;
         modalDesc.classList.remove('expanded', 'truncated');
         modal.classList.add('show');
