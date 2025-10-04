@@ -90,16 +90,19 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
-    document.querySelectorAll('.card, .blog, .certificate').forEach(el => {
-        el.addEventListener('click', () => {
-            modalTitle.textContent = el.dataset.title;
-            modalDesc.textContent = el.dataset.desc;
-            modalImage.src = el.dataset.img;
-            modalDesc.classList.remove('expanded', 'truncated');
-            modal.classList.add('show');
-            setTimeout(handleReadMore, 50);
-        });
+document.querySelectorAll('.card, .blog, .certificate').forEach(el => {
+    el.addEventListener('click', () => {
+        modalTitle.textContent = el.dataset.title;
+        
+        // This is the corrected line:
+        modalDesc.innerHTML = el.dataset.desc; 
+        
+        modalImage.src = el.dataset.img;
+        modalDesc.classList.remove('expanded', 'truncated');
+        modal.classList.add('show');
+        setTimeout(handleReadMore, 50);
     });
+});
     modalClose.addEventListener('click', () => {
         modal.classList.remove('show');
     });
